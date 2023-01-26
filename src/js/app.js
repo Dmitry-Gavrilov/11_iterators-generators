@@ -7,7 +7,7 @@ const range = {
   to: team.length - 1,
 };
 
-range[Symbol.iterator] = function a() {
+range[Symbol.iterator] = function iterations() {
   let current = this.from;
   const last = this.to;
 
